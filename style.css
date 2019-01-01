@@ -1,0 +1,56 @@
+BODY {
+    font-family: arial;
+}
+
+#chordChart {
+    border: 0;
+}
+
+#chordChart TD {
+    vertical-align: top;
+}
+
+.tabTableName {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tabTable {
+    border: 0;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.tabTable TD {
+    width: 12px;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.bordered {
+    border: 1px solid black;
+}
+
+.unbordered {
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.shiftLeft {    
+    transform: translate(-5px, 3px);
+}
+
+.shiftUp {
+    transform: translate(-5px, 0px);
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    display: block;
+    border-radius: 50%;
+    margin: 0;
+}
