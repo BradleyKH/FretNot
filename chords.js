@@ -32,6 +32,17 @@ const c1 = {
     ]   
 };
 
+const cs1 = {
+    name: 'C#',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
+
 const d1 = {
     name: 'D',
     start: 1,
@@ -66,6 +77,17 @@ const f1 = {
         '  *   '
     ]   
 };
+
+const fs1 = {
+    name: 'F#',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
 
 const g1 = {
     name: 'G',
@@ -113,6 +135,17 @@ const c7 = {
     ]   
 };
 
+const cs7 = {
+    name: 'C#7',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
+
 const d7 = {
     name: 'D7',
     start: 1,
@@ -146,6 +179,17 @@ const f7 = {
         '      '
     ] 
 };
+
+const fs7 = {
+    name: 'F#7',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
 
 const g7 = {
     name: 'G7',
@@ -194,6 +238,17 @@ const cm = {
     ]   
 };
 
+const csm = {
+    name: 'C#m',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
+
 const dm = {
     name: 'Dm',
     start: 1,
@@ -227,6 +282,17 @@ const fm = {
         '      '
     ]   
 };
+
+const fsm = {
+    name: 'F#m',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
 
 const gm = {
     name: 'Gm',
@@ -272,6 +338,17 @@ const cm7 = {
     ]    
 };
 
+const csm7 = {
+    name: 'C#m7',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
+
 const dm7 = {
     name: 'Dm7',
     start: 1,
@@ -305,6 +382,17 @@ const fm7 = {
     ]   
 };
 
+const fsm7 = {
+    name: 'F#m7',
+    start: 1,
+    fingering: '      ',
+    diagram: [
+        '      ',
+        '      ',
+        '      '
+    ]
+}
+
 const gm7 = {
     name: 'Gm7',
     start: 1,
@@ -316,8 +404,8 @@ const gm7 = {
     ]     
 };
 
-const major = [a1, b1, c1, d1, e1, f1, g1];
-const dom7 = [a7, b7, c7, d7, e7, f7, g7];
-const minor = [am, bm, cm, dm, em, fm, gm];
-const min7 = [am7, bm7, cm7, dm7, em7, fm7, gm7];
+const major = [a1, b1, c1, cs1, d1, e1, f1, fs1, g1];
+const dom7 = [a7, b7, c7, cs7, d7, e7, f7, fs7, g7];
+const minor = [am, bm, cm, csm, dm, em, fm, fsm, gm];
+const min7 = [am7, bm7, cm7, csm7, dm7, em7, fm7, fsm7, gm7];
 const chordSet = [major, dom7, minor, min7];
